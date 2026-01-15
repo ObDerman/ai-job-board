@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import React from 'react';
 import CandidateCard from '../components/CandidateCard';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://aijobboard-gno8.onrender.com';
 
 export default function SearchPage() {
     const [messages, setMessages] = useState([

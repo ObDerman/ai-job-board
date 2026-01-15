@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://aijobboard-gno8.onrender.com';
 
 const nationalities = ['سعودي', 'مصري', 'أردني', 'سوري', 'لبناني', 'يمني', 'سوداني', 'هندي', 'باكستاني'];
 const majors = ['هندسة حاسب', 'تسويق', 'إدارة أعمال', 'علم نفس', 'موارد بشرية', 'تصميم جرافيك', 'هندسة كهربائية', 'محاسبة', 'طب', 'قانون'];
